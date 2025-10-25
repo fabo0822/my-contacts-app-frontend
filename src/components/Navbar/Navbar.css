@@ -29,15 +29,20 @@
    color: var(--color-green);
 }
 
+.tabs li.active {
+   font-weight: bold;
+   color: var(--color-green);
+}
+
 .new-button {
 background-color: var(--color-green);
 border: none;
 padding: 8px 12px;
 border-radius: 5px;
 }
+
 .new-button:hover {
   background-color: var(--color-green-ghost);
   cursor: pointer;
-  transition: all 0.3s ease-in-out;
   border:2px solid var(--color-green);
 }
