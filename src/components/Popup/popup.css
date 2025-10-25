@@ -1,0 +1,32 @@
+.popup-container {
+  width: 100%;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.popup {
+  background-color: #c1d72f;
+  padding: 10px;
+  border-radius: 5px;
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.popup-input {
+  width: 90%;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #f0f8e8;
+}
+
+.popup-checkbox {
+  margin-left: 93%;
+}
+

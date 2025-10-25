@@ -1,10 +1,11 @@
 .navbar {
-   
    display: flex;
+   flex-wrap: wrap;
    align-items: center;
-   border-bottom: 1px solid black;
    gap: 1rem;
- 
+   padding: 1rem;
+   border-bottom: 1px solid black;
+
 }
 
 .logo {
@@ -46,3 +47,4 @@ border-radius: 5px;
   cursor: pointer;
   border:2px solid var(--color-green);
 }
+
