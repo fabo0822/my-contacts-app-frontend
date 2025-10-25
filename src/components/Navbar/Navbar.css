@@ -1,0 +1,43 @@
+.navbar {
+   
+   display: flex;
+   align-items: center;
+   border-bottom: 1px solid black;
+   gap: 1rem;
+ 
+}
+
+.logo {
+  width: 140px;
+  object-fit: contain;
+
+}
+
+.tabs {
+   list-style: none;
+   display: flex;
+   justify-content: flex-start;
+   margin-left: auto;
+   gap: 1.5rem;
+}
+
+.tabs li {
+   cursor: pointer;
+}
+
+.tabs li:hover {
+   color: var(--color-green);
+}
+
+.new-button {
+background-color: var(--color-green);
+border: none;
+padding: 8px 12px;
+border-radius: 5px;
+}
+.new-button:hover {
+  background-color: var(--color-green-ghost);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  border:2px solid var(--color-green);
+}
